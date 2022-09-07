@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+   
+}
+.card{
+   text-align: center;
+   background-image: url(bg3.png);
+ height: 180px;
+ box-shadow: 1px 1px 30px black;
+
+ 
+ 
+ }
+ .card img{
+     width: 150px;
+     height: 150px;
+     border-radius: 200px;
+     margin-top: 100px;
+     border: 5px solid white;
+    
+ 
+ 
+  
+ }
+ .card ul{
+    padding-top: 50px;
+ }
+ .card ul li{
+padding: 20px;
+
+
+
+}
+.card ul li a{
+    display: block;
+    color: aliceblue;
+}
+.card ul li a ion-icon{
+padding-right: 100px;
+   
+    font-size: 20px;
+    
+}
+#t{
+    background: #000;
+    width: 300px;
+   margin: auto;
+   border-radius: 15px;
+   margin-bottom: 30px;
+   
+
+ 
+
+}
+#f{
+    background: #000;
+    width: 300px;
+   margin: auto;
+   border-radius: 15px;
+   margin-bottom: 30px;
+
+}
+#y{
+    background: #000;
+    width: 300px;
+   margin: auto;
+   border-radius: 15px;
+   margin-bottom: 30px;
+
+}
+#d{
+    background: #000;
+    width: 300px;
+   margin: auto;
+   border-radius: 15px;
+   margin-top: 30px;
+
+}
+@media only screen and (max-width:700px){
+.card{
+   
+  background-image: url(bg3.png);
+height: 180px;
+
+}
+.card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 200px;
+    margin-top: 100px;
+ 
+
+
+ 
+}
+
+}
